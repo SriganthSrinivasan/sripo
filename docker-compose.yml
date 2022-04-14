@@ -3,7 +3,7 @@ services:
   webserver:
     image: nginx
     ports:
-      - '8000-8010:80' #Ports 8000 to 8010 will be redirected from 80 while using scaling
+      - '8000-8010:80'
     volumes:
       - /var/lib/docker/volumes/volume01:/root/volume/
     networks:
