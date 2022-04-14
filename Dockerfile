@@ -1,5 +1,5 @@
 FROM nginx
-LABEL "Maintainer"="Sriganth Srinivasan"
+LABEL "Maintainer"="Sriganth Srinivasan Vikhansam"
 WORKDIR /root/
 RUN yum update -y
 RUN amazon-linux-extras install docker
